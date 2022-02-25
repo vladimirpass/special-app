@@ -18,7 +18,7 @@ public class RoadCamera {
             (new BufferedReader(new InputStreamReader(System.in))).readLine());
 
         if (oncomingSpeed >= criminalSpeed) {
-            System.out.println("Вызов полиции...123");
+            System.out.println("Вызов полиции...");
         } else if (oncomingSpeed > maxOncomingSpeed) {
             int overSpeed = oncomingSpeed - maxOncomingSpeed;
             int gradesCount = overSpeed / speedFineGrade;
